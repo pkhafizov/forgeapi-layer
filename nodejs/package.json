@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.734.0",
+    "forge-apis": "^0.7.3",
+    "forgeapi-auth": "^1.0.2"
+  }
+}

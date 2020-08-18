@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  DepLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: forgeapi-dependencies
+      ContentUri: s3://pkhafizov-forge-s3/layers/f06d44b153c431082b7662c8620ab49c
+      CompatibleRuntimes:
+      - nodejs12.x
+      LicenseInfo: MIT
+      RetentionPolicy: Retain
