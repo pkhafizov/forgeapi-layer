@@ -5,7 +5,7 @@ Resources:
     Type: AWS::Serverless::LayerVersion
     Properties:
       LayerName: forgeapi-dependencies
-      ContentUri: s3://pkhafizov-forge-s3/layers/f06d44b153c431082b7662c8620ab49c
+      ContentUri: s3://pkhafizov-forge-s3/layers/9e1389c1590f222c704107d7827298da
       CompatibleRuntimes:
       - nodejs12.x
       LicenseInfo: MIT
