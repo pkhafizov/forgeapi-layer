@@ -1,2 +1,2 @@
 # forgeapi-layer
-common functional layer for Autodesk Forge API
+common functional Lambda's layer for Autodesk Forge API
